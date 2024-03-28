@@ -1,0 +1,50 @@
+.navbar-container{
+  background-color: rgb(0 0 0 / 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  width: 100%;
+  margin: 0;
+  font-size: 15px;
+}
+
+.icons-container img{
+  height: 2em;
+  padding: 8px 16px;
+}
+
+.routes-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+}
+
+.link-item{
+  list-style-type: none;
+}
+
+.link-item a{
+  color: rgb(255 255 255 / 0.75);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  text-decoration: none;
+}
+
+.link-item a:hover{
+  color: rgb(255 255 255);
+}
+
+.link-item .active-link{
+  color: rgb(255 255 255);
+}
+
+.description-container{
+  font-size: 0.8rem;
+  width: 72px;
+  text-align: center;
+}
