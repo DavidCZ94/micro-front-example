@@ -1,0 +1,19 @@
+{
+  "name": "micro-front-react",
+  "version": "1.0.0",
+  "description": "This is an example of how how you can implement microfront architecture in a monorepo using react and - [@vite-plugin-federation]([https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md](https://www.npmjs.com/package/@originjs/vite-plugin-federation)) which support Module Federation. Inspired by Webpack and compatible with Webpack Module Federation.",
+  "main": "index.js",
+  "workspaces": [
+    "./*"
+  ],
+  "scripts": {
+    "co": "sui-mono commit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@s-ui/mono": "^2.45.0"
+  }
+}
