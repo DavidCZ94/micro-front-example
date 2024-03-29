@@ -8,7 +8,6 @@ const AppRoutes: React.FC = () => {
   const routesObject: RouteObject[] = [
     {path: '/home/mfReact/a', element: <MfReactA/>},
     {path: '/home/mfReact/b', element: <MfReactB/>},
-    //{path: '/home/mfAngular/a', element: <MfReactA/>},
     {path: '/*', element: <Navigate to="/home/mfReact/a" />}
   ];
 
