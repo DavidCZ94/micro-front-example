@@ -7,6 +7,11 @@
     "./*"
   ],
   "scripts": {
+    "build": "npm run build --workspaces",
+    "dev": "npm run dev:mf1 & npm run dev:mf2 & npm run dev:shell",
+    "dev:shell": "npm run preview --workspace=shell",
+    "dev:mf1": "npm run preview --workspace=mf-react-1",
+    "dev:mf2": "npm run preview --workspace=mf-react-2",
     "co": "sui-mono commit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
