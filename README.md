@@ -25,4 +25,4 @@ $ npm run dev:mf2
 $ npm run dev:shell
 ```
 
- - After all the processes are running you can open the browser in http://localhost:5000/home/mfReact/a
+ - After all the processes are running you can open the browser in http://localhost:5000/
