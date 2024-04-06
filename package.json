@@ -19,5 +19,8 @@
   "license": "ISC",
   "dependencies": {
     "@s-ui/mono": "^2.45.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
   }
 }
