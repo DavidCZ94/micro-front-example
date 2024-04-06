@@ -18,9 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@s-ui/mono": "^2.45.0"
-  },
-  "devDependencies": {
+    "@s-ui/mono": "^2.45.0",
     "dotenv": "^16.4.5"
   }
 }
